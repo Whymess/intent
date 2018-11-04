@@ -1,0 +1,75 @@
+body {
+  background: #e2e1e0;
+
+}
+
+.instructions {
+	font-weight: bold;
+	text-align: center;
+}
+
+.airport-inputs-error {
+	 background-color: #ddffdd;
+	  border: 5px solid #ffdddd;
+}
+
+.container {
+	position: relative;
+	top: 100px;
+	margin: 0 auto;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+  	background: #fff;
+  	border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.label-inputs-aiports {
+	font-weight: bolder;
+	color: darkblue;
+}
+
+.container:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.directions {
+	top: .5em;
+	left: 1em;
+	position: relative;
+	font-weight: bolder;
+}
+
+.container-for-input, .submit-section {
+	margin-top: 1em;
+}
+
+.container-for-input {
+	left: 1em;
+	position: relative;
+}
+
+.submit-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.error {
+	color: firebrick;
+	left: 1em;
+	top: 1em;
+	font-weight: bolder;
+	position: relative;
+}
+
+#saveForm, #clearForm {
+
+    width: 5em;
+    height: 4em;
+    background-color: #3DDC97;
+    color: black;
+    margin: 1em;
+    font-weight: bolder;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Intent Media</title>
+      <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   </head>
+   <body>
+      <form class="container">
+         <div class="instructions">
+            To check the distance between airports. Please use the below form. 
+            - Flights only between the following airports - JFK, LAX, LAS, PDX. 
+         </div>
+         <div class="container-for-input">
+            <label  class="label-inputs-aiports">Origin:</label>
+            <input id="origin-input" type="text" class="airport-inputs" maxlength="3">
+         </div>
+         <div class="container-for-input">
+            <label class="label-inputs-aiports">
+            Destination:
+            </label>
+            <input id="destination-input" type="test" class="airport-inputs" maxlength="3" > 
+         </div>
+         <div class="directions">
+         </div>
+         <div class="error">
+         </div>
+         <div class="submit-section">
+            <button id="saveForm"  type="submit">Submit</button>
+            <button id="clearForm"  type="submit">Clear </button>
+         </div>
+      </form>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="JavaScript/api.js" type="text/javascript"></script>
+      <script src="JavaScript/index.js" type="text/javascript"></script>
+   </body>
+</html>
