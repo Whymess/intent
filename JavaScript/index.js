@@ -35,7 +35,7 @@ function checkIfAirportIsListed(destinationValue, originValue) {
   ) {
     CalcuatedValues(upCasedestination, upCaseOrign);
   } else {
-    renderErrorMessage("Unable to cacluate");
+    renderErrorMessage();
   }
 }
 

@@ -8,6 +8,10 @@ body {
 	text-align: center;
 }
 
+.airport-inputs {
+	border: 5px solid;
+}
+
 .airport-inputs-error {
 	 background-color: #ddffdd;
 	  border: 5px solid #ffdddd;
@@ -57,10 +61,10 @@ body {
 
 .error {
 	color: firebrick;
-	left: 1em;
 	top: 1em;
 	font-weight: bolder;
-	position: relative;
+	display: flex;
+	justify-content: center;
 }
 
 #saveForm, #clearForm {
