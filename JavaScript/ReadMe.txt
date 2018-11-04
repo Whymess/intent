@@ -1,1 +1,1 @@
-This application is completely responsive. I used flexbox and jQuery.  Index.js consists of event handlers and four functions each taking on different responsibility of the application.  Furthermore, the application responds to all valid airport codes and displays an error when a user enters an incorrect code.  
+
